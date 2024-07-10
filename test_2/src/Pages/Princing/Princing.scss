@@ -1,0 +1,18 @@
+#princing .col-md-4{
+    height: 650px;
+}
+#title-princing{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.card-pricing{
+    height: 600px;
+}
+.card-pricing .card-footer{
+    background: white;
+}
+@media screen and (min-width: 768px ) and (max-width:991px){
+    .card-pricing{
+        height: 680px;
+    }
+}

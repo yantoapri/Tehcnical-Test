@@ -1,0 +1,3 @@
+Framework:
+react-router-dom ->untuk membuat routing menu
+react-bootstrap	->sebenarnya saya bisa pakai material,antdesign an bootstrap, tapi saya lebih terbiasa menggunakan bootstrap

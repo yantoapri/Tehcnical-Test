@@ -1,0 +1,84 @@
+
+#about #bg-bottom{
+    background: url("../../assets/img/test-bottom.png");
+    background-size: cover;
+    position: absolute;
+    right: -3px;
+    bottom: 0;
+    width: 100%;
+    height: 537px;
+    display: block;
+}
+#about .text1{
+    margin-top: 80px;
+}
+#about .text2{
+    position: absolute;
+    bottom: 5px;
+}
+#about .text2 img{
+    width: 300px;
+}
+.btn-rd{
+    border-radius: 15px;
+}
+.br-y{
+    border-bottom: 3px solid black;
+}
+.card-princing{
+    min-height: 555px;
+}
+@media (max-width: 600px) {
+    #about #bg-bottom{
+        display: none !important;
+    }
+    #about .text2 img{
+        width: 200px !important;
+    }
+    #about .text1{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    #about .text1{
+        margin-top: 50px;
+    }
+    #about #bg-bottom{
+        height: 390px !important;
+    }
+    #about #bg-bottom{
+        display: none;
+    }
+}
+@media (min-width: 851px) {
+    #about #bg-bottom{
+        height: 480px !important;
+    }
+    #about #bg-bottom{
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    #about #bg-bottom{
+        height: 626px !important;
+    } 
+    #about .text1{
+        margin-top: 80px !important;
+        width: 60%;
+        margin: 0 auto;
+    }
+    #about #bg-bottom{
+        display: block;
+    }
+}
+@media (min-width: 1300px) {
+    #about #bg-bottom{
+        height: 700px !important;
+    } 
+    #about #bg-bottom{
+        display: block;
+    }
+}

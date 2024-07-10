@@ -1,0 +1,74 @@
+#login{
+    margin-top: 50px;
+}
+#login .card{
+    width: 400px;
+    margin:0 auto;
+    background-image: linear-gradient(to bottom right, rgb(49, 160, 239), rgb(68, 219, 243),rgb(188, 84, 252));
+    opacity: 0.8;
+}
+
+#bg-bottom{
+    background: url("../../assets/img/test-bottom.png");
+    background-size: cover;
+    position: absolute;
+    right: -3px;
+    bottom: 0;
+    width: 100%;
+    height: 537px;
+    display: block;
+}
+@media (max-width: 600px) {
+    #login #bg-bottom{
+        display: none !important;
+    }
+    #login .text2 img{
+        width: 200px !important;
+    }
+    #login .text1{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    #login .text1{
+        margin-top: 50px;
+    }
+    #login #bg-bottom{
+        height: 390px !important;
+    }
+    #login #bg-bottom{
+        display: none;
+    }
+}
+@media (min-width: 851px) {
+    #login #bg-bottom{
+        height: 480px !important;
+    }
+    #login #bg-bottom{
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    #login #bg-bottom{
+        height: 626px !important;
+    } 
+    #login .text1{
+        margin-top: 80px !important;
+        width: 60%;
+        margin: 0 auto;
+    }
+    #login #bg-bottom{
+        display: block;
+    }
+}
+@media (min-width: 1300px) {
+    #login #bg-bottom{
+        height: 700px !important;
+    } 
+    #login #bg-bottom{
+        display: block;
+    }
+}
